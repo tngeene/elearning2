@@ -1,0 +1,29 @@
+.learn-btn, .courses-btn{
+    border-radius: 100px !important;
+}
+.learn-btn:hover{
+    background: linear-gradient(to right, #2562ba 0%, #00aeff 100%);
+    cursor: pointer;
+}
+.blog p{
+    text-align: left !important;
+    color: #666666;
+    font-size: 14px;
+}
+.blog h3{
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+.signup-text{
+    font-size: 1.3rem !important;
+}
+.title::after{
+    content: ' ';
+    background: #000457;
+    height: 1px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
