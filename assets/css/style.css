@@ -47,6 +47,11 @@ ul {
 }
 #accordion btn {
     text-decoration: none !important;
-    outline: none !important;
-    
+    outline: none !important;   
+}
+.collapse.navbar-collapse {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    float: none;
 }
