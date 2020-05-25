@@ -2,7 +2,7 @@
     border-radius: 100px !important;
 }
 .learn-btn:hover{
-    background: linear-gradient(to right, #2562ba 0%, #00aeff 100%);
+    background: linear-gradient(to right, #ffad00 0%, #ffad00 100%);
     cursor: pointer;
 }
 .blog p{
@@ -22,9 +22,7 @@
 .signup-text{
     font-size: 1.3rem !important;
 }
-.navbar{
-    height: 8;
-}
+
 /* .title::after{
     content: ' ';
     background: #000457;
@@ -34,9 +32,7 @@
     margin-right: auto;
     display: block;
 } */
-.course-btn {
-    border-radius: 80px !important;
-}
+
 ul {
     list-style: none;
 }
@@ -63,6 +59,25 @@ ul {
     float: none;
 }
 .about p{
-    line-height: 3.25rem;
-    text-align: justify !important;
+    line-height: 2.5rem;
+}
+.instructor .instructor-wrap {
+    background: #f2f2f2;
+    margin-bottom: 30px;
+    padding: 40px 30px;
+}
+.instructor .instructor-wrap .img-wrap {
+    float: left;
+    width: 140px;
+    margin-right:50px;
+}
+.instructor .instructor-wrap .img-wrap img {
+    width: 140px;
+    height: 140px;
+    border-radius: 100%;
+}
+.expand-block .btn-info{
+    margin-right: auto;
+    margin-left: 440px;
+    margin-top: 20px;
 }
