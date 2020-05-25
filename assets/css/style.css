@@ -11,14 +11,21 @@
     font-size: 14px;
 }
 .blog h3{
-    font-size: 20px;
-    font-weight: 400;
+    font-size: 16px;
+    font-weight: 350;
     margin-top: 20px;
+}
+.course-description p {
+    line-height: 1.5rem;
+    font-size: 14px;
 }
 .signup-text{
     font-size: 1.3rem !important;
 }
-.title::after{
+.navbar{
+    height: 8;
+}
+/* .title::after{
     content: ' ';
     background: #000457;
     height: 1px;
@@ -26,7 +33,7 @@
     margin-left: auto;
     margin-right: auto;
     display: block;
-}
+} */
 .course-btn {
     border-radius: 80px !important;
 }
@@ -54,4 +61,8 @@ ul {
     justify-content: center;
     text-align: center;
     float: none;
+}
+.about p{
+    line-height: 3.25rem;
+    text-align: justify !important;
 }
