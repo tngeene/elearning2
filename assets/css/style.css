@@ -1,6 +1,15 @@
+body {
+    font-family: 'Poppins', sans-serif !important;
+}
+
+h1, h2, h3, h4, h5, h6, nav {
+    text-transform: uppercase;
+}
+
 .learn-btn, .courses-btn{
     border-radius: 100px !important;
 }
+
 .learn-btn:hover{
     background: linear-gradient(to right, #ffad00 0%, #ffad00 100%);
     cursor: pointer;
@@ -59,7 +68,7 @@ ul {
     float: none;
 }
 .about p{
-    line-height: 2.5rem;
+    line-height: 2rem;
 }
 .instructor .instructor-wrap {
     background: #f2f2f2;
@@ -80,4 +89,33 @@ ul {
     margin-right: auto;
     margin-left: 440px;
     margin-top: 20px;
+}
+
+p {
+    font-size: 1em !important;
+    letter-spacing: 0.04rem;
+}
+
+hr {
+    border-color: #0a0a0a !important;
+}
+
+.btn-primary {
+    color: #ffffff !important;
+    background-color: #2668ac !important;
+    border-color: #2668ac !important;
+}
+
+.btn-secondary {
+    color: #ffffff !important;
+    background-color: #f9495f !important;
+    border-color: #f9495f !important;
+}
+
+.badge-secondary {
+    background-color: #f9495f !important;
+}
+
+.text-secondary {
+    color: #f9495f !important;
 }
