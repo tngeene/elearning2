@@ -35,17 +35,12 @@
 
 <body class="layout-fluid layout-sticky-subnav">
 
-
-<div class="preloader"></div>
-
 <!-- Header Layout -->
 <div class="mdk-header-layout js-mdk-header-layout">
-    <!-- Header Layout Content -->
     <div class="mdk-header-layout__content page">
         <nav class="navbar navbar-expand-md navbar-light bg-white sticky">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#"> <img src="assets/images/logo.png" width="250"></a>
-                </a>
+                <a class="navbar-brand" href="#"><img alt="logo" src="assets/images/logo.png" width="250"></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -73,6 +68,7 @@
                             <a href="#" class="nav-link">Contact</a>
                         </li>
                     </ul>
+
                 </div>
                 <div class="dropdown d-flex align-items-end">
                     <a href="sign-up.html" class="btn btn-secondary ml-auto mr-2 course-btn w-50">Register</a>
@@ -83,93 +79,56 @@
 
         <div class="container-fluid">
             <div class="row my-5">
-                <div class="col-md-4" data-perfect-scrollbar>
+                <div class="col-md-4">
                     <ul class="list-group list-group-fit shadow-sm">
                         <li class="list-group-item">
                             <a href="student-take-course-logged-in.html">Dashboard</a>
                         </li>
                         <li class="list-group-item">
-                            <a href="student-take-course.html">Course Overview</a>
-                        </li>
-                        <li class="list-group-item">
-                            <a href="instructors.html">Instructor(s)</a>
+                            <a href="student-take-course-logged-in.html">Course Overview</a>
                         </li>
                         <li class="list-group-item active">
-                            <a href="#" class="text-white">Chapters</a>
+                            <a href="#" class="text-white">Instructor(s)</a>
                         </li>
                         <li class="list-group-item">
-                            <a href="syllabus.html" class="text-decoration-none">Course Materials</a>
-                        </li>
-                        <!-- <li class="list-group-item">
-                            <a href="syllabus.html" class="text-decoration-none">Discussion Forum</a>
+                            <a href="syllabus-logged-in.html">Chapters</a>
                         </li>
                         <li class="list-group-item">
-                            <a href="syllabus.html" class="text-decoration-none">Related Resources</a>
-                        </li>-->
-                        <li class="list-group-item">
-                            <a href="" class="text-decoration-none">Final Quiz</a>
+                            <a href="">Course Materials</a>
                         </li>
-                        <!-- <li class="list-group-item">
-                            <a href="syllabus.html" class="text-decoration-none">Contact Admin</a>
-                        </li> -->
+                        <li class="list-group-item">
+                            <a href="">Final Quiz</a>
+                        </li>
                     </ul>
                 </div>
                 <div class="col-8 mr-auto ml-auto">
-                    <div id="accordion">
+                    <div id="instructor" class="instructor tab hide-content" style="display: block;">
                         <div class="card">
-                            <div class="card-header" id="headingOne">
-                                <a href="#" class="text-decoration-none" data-toggle="collapse"
-                                   data-target="#collapseOne"
-                                   aria-expanded="true" aria-controls="collapseOne">
-                                    <div class="row">
-                                        <span class="col-2">
-                                            <span class="badge badge-secondary ">Chapter 1</span>
-                                        </span>
-                                        <span class="col-9">
-                                            Introduction to Volumetric Based Ultrafiltration
-                                        </span>
-                                        <span class="col-1">
-                                            <i class="material-icons">expand_more</i>
-                                        </span>
-                                    </div>
-                                </a>
-                            </div>
-                            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
-                                 data-parent="#accordion">
-                                <div class="card-body">
-                                    <p>
-                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores cum earum,
-                                        eligendi excepturi fugiat in laudantium nemo neque omnis placeat quo repellat
-                                        sapiente sunt. Ad cum ea fugiat magni sit!
-                                    </p>
-                                </div>
+                            <div class="card-body">
+                                <h5 class="text-primary mb-0">Instructor(s)</h5>
                             </div>
                         </div>
+
                         <div class="card">
-                            <div class="card-header" id="headingTwo">
-                                <a href="#" class="text-decoration-none" data-toggle="collapse"
-                                   data-target="#collapseTwo" aria-controls="collapseTwo">
-                                    <div class="row">
-                                        <span class="col-2">
-                                            <span class="badge badge-secondary ">Chapter 2</span>
-                                        </span>
-                                        <span class="col-9">
-                                            Flow Control
-                                        </span>
-                                        <span class="col-1">
-                                            <i class="material-icons">expand_more</i>
-                                        </span>
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img src="assets/images/user_icon.png" alt="Andrew"
+                                             class="w-100 rounded-circle">
                                     </div>
-                                </a>
-                            </div>
-                            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
-                                 data-parent="#accordion">
-                                <div class="card-body">
-                                    <p>
-                                         Lorem ipsum dolor sit amet, consectetur adipisicing
-                                        elit. Asperiores cum earum, eligendi excepturi fugiat in laudantium nemo neque
-                                        omnis placeat quo repellat sapiente sunt. Ad cum ea fugiat magni sit!
-                                    </p>
+                                    <div class="col-md-9">
+                                        <h4 class="mb-3">Andrew Mwenda</h4>
+                                        <p>
+                                            Andrew Mwenda has 20 years in haemodialysis.<br>
+                                            Fresnius Machine certified. <br> Formula 200 plus certified.
+                                        </p>
+                                        <div class="mt-3 text-primary">
+                                            <a href="#">
+                                                <i class="fab fa-linkedin"></i>
+                                                <i class="fab fa-twitter"></i>
+                                            </a>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -265,8 +224,10 @@
                 </div>
             </div>
         </div> -->
+
     </div>
     <!-- // END header-layout__content -->
+
 </div>
 <!-- // END header-layout -->
 
