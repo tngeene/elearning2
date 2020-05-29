@@ -35,119 +35,130 @@
 
 <body class="layout-default">
 
-<!-- Header Layout -->
-<div class="mdk-header-layout js-mdk-header-layout">
-    <!-- Header Layout Content -->
-    <div class="mdk-header-layout__content">
-        <nav class="navbar navbar-expand-md navbar-light bg-white sticky">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#">
-                    <img src="assets/images/logo.png" width="250"></a>
-                </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <ul class="navbar-nav nav-list nav-items-center text-dark">
-                        <li class="nav-item">
-                            <a href="index.html" class="nav-link">Home</a>
-                        </li>
-                        <li class="nav-item active">
-                            <a href="courses.html" class="nav-link">Courses</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="" class="nav-link">Resources</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="" class="nav-link">News</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="" class="nav-link">Blog</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="" class="nav-link">Events</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#" class="nav-link">Contact</a>
-                        </li>
-                    </ul>
+    <!-- Header Layout -->
+    <div class="mdk-header-layout js-mdk-header-layout">
+        <!-- Header Layout Content -->
+        <div class="mdk-header-layout__content">
+            <nav class="navbar navbar-expand-md navbar-light bg-white sticky">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">
+                        <img src="assets/images/logo.png" width="250"></a>
+                    </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarResponsive">
+                        <ul class="navbar-nav nav-list nav-items-center text-dark">
+                            <li class="nav-item">
+                                <a href="index.html" class="nav-link">Home</a>
+                            </li>
+                            <li class="nav-item active">
+                                <a href="courses.html" class="nav-link">Courses</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="" class="nav-link">Resources</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="" class="nav-link">News</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="" class="nav-link">Blog</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="" class="nav-link">Events</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Contact</a>
+                            </li>
+                        </ul>
 
+                    </div>
+                    <div class="dropdown d-flex align-items-end">
+                        <a href="sign-up.html" class="btn btn-secondary ml-auto mr-2 course-btn w-50">Register</a>
+                        <a href="login.html" class="btn btn-outline-primary ml-auto mr-2 course-btn w-50">Log In</a>
+                    </div>
                 </div>
-                <div class="dropdown d-flex align-items-end">
-                    <a href="sign-up.html" class="btn btn-secondary ml-auto mr-2 course-btn w-50">Register</a>
-                    <a href="login.html" class="btn btn-outline-primary ml-auto mr-2 course-btn w-50">Log In</a>
-                </div>
-            </div>
-        </nav>
+            </nav>
 
-        <div class="mdk-drawer-layout js-mdk-drawer-layout" data-push data-responsive-width="992px">
-            <div class="mdk-drawer-layout__content page">
-                <div class="container-fluid page__container my-5">
-                    <div class="row">
-                        <div class="col-md-4" data-perfect-scrollbar>
-                            <ul class="list-group list-group-fit shadow-sm">
-                                <li class="list-group-item">
-                                    <a href="" class="text-decoration-none">Dashboard</a>
-                                </li>
-                                <li class="list-group-item active">
-                                    <a href="#overview" class="text-white text-decoration-none">Course Overview</a>
-                                </li>
-                                <li class="list-group-item">
-                                    <a href="instructor-logged-in.html" class="text-decoration-none">Instructor(s)</a>
-                                </li>
-                                <li class="list-group-item">
-                                    <a href="syllabus-logged-in.html" class="text-decoration-none">Chapters</a>
-                                </li>
-                                <li class="list-group-item">
-                                    <a href="" class="text-decoration-none">Course Materials</a>
-                                </li>
-                                <!-- <li class="list-group-item">
+            <div class="mdk-drawer-layout js-mdk-drawer-layout" data-push data-responsive-width="992px">
+                <div class="mdk-drawer-layout__content page">
+                    <div class="container-fluid page__container my-5">
+                        <div class="row">
+                            <div class="col-md-4" data-perfect-scrollbar>
+                                <ul class="list-group list-group-fit shadow-sm">
+                                    <li class="list-group-item">
+                                        <a href="" class="text-decoration-none">Dashboard</a>
+                                    </li>
+                                    <li class="list-group-item active">
+                                        <a href="#overview" class="text-white text-decoration-none">Course Overview</a>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <a href="instructor-logged-in.html"
+                                            class="text-decoration-none">Instructor(s)</a>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <a href="" class="text-dark text-decoration-none">Chapters</a>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <a href="chapter-1.html" class="text-justified">Introduction to volumetric based ultrafiltration</a>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <a href="chapter-2.html" class="text-decoration-none">Flow
+                                            Control</a>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <a href="course-materials.html" class="text-decoration-none">Course
+                                            Materials</a>
+                                    </li>
+                                    <!-- <li class="list-group-item">
                                     <a href="syllabus-logged-in.html" class="text-decoration-none">Discussion Forum</a>
                                 </li>
                                 <li class="list-group-item">
                                     <a href="syllabus-logged-in.html" class="text-decoration-none">Related Resources</a>
                                 </li> -->
-                                <li class="list-group-item">
-                                    <a href="student-take-quiz.html" class="text-decoration-none">Final Quiz</a>
-                                </li>
-                                <!-- <li class="list-group-item">
+                                    <li class="list-group-item">
+                                        <a href="student-take-quiz.html" class="text-decoration-none">Final Quiz</a>
+                                    </li>
+                                    <!-- <li class="list-group-item">
                                     <a href="syllabus-logged-in.html" class="text-decoration-none">Contact Admin</a>
                                 </li> -->
-                            </ul>
-                        </div>
-                        <div class="col-md-8">
-                            <div class="card">
-                                <div class="card-body">
-                                    <h5 class="mb-0 text-capitalize text-primary">
-                                        Volumetric Based Ultrafiltration
-                                    </h5>
-                                </div>
+                                </ul>
                             </div>
-                            <div class="card embed-responsive embed-responsive-16by9 mb-4">
-                                 <iframe class="embed-responsive-item"
+                            <div class="col-md-8">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h5 class="mb-0 text-capitalize text-primary">
+                                            Volumetric Based Ultrafiltration
+                                        </h5>
+                                    </div>
+                                </div>
+                                <div class="card embed-responsive embed-responsive-16by9 mb-4">
+                                    <iframe class="embed-responsive-item"
                                         src="https://www.youtube.com/embed/2nPN-hLvqog" frameborder="0"
                                         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                                         allowfullscreen></iframe>
-                            </div>
-                            <div class="card" id="overview">
-                                <div class="card-body">
-                                    <h5 class="card-title text-primary">Overview</h5>
-                                    <p class="text-justify my-3">
-                                        This course is aimed to get you started on Volumetric Based Ultrafiltration.Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                        Consequuntur
-                                        reprehenderit sint accusantium nisi dolorem at odio beatae,
-                                        similique eaque soluta? This course is aimed to get you started
-                                        using the InVision app. Lorem ipsum dolor sit amet consectetur
-                                        adipisicing elit.
-                                    </p>
-                                    <!-- <h5 class="card-title text-primary">What you will learn</h5>
+                                </div>
+                                <div class="card" id="overview">
+                                    <div class="card-body">
+                                        <h5 class="card-title text-primary">Overview</h5>
+                                        <p class="text-justify my-3">
+                                            This course is aimed to get you started on Volumetric Based
+                                            Ultrafiltration.Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                            Consequuntur
+                                            reprehenderit sint accusantium nisi dolorem at odio beatae,
+                                            similique eaque soluta? This course is aimed to get you started
+                                            using the InVision app. Lorem ipsum dolor sit amet consectetur
+                                            adipisicing elit.
+                                        </p>
+                                        <!-- <h5 class="card-title text-primary">What you will learn</h5>
                                     <ol>
                                         <li>How to get you started</li>
                                         <li>Using the InVision app</li>
                                         <li>Get you started</li>
                                         <li>This course is aimed to</li>
                                     </ol> -->
-                                    <!-- <a href="sign-up.html" class="btn btn-secondary">Enroll to Course</a> -->
+                                        <!-- <a href="sign-up.html" class="btn btn-secondary">Enroll to Course</a> -->
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -156,34 +167,33 @@
             </div>
         </div>
     </div>
-</div>
 
-<!-- jQuery -->
-<script src="assets/vendor/jquery.min.js"></script>
+    <!-- jQuery -->
+    <script src="assets/vendor/jquery.min.js"></script>
 
-<!-- Bootstrap -->
-<script src="assets/vendor/popper.min.js"></script>
-<script src="assets/vendor/bootstrap.min.js"></script>
+    <!-- Bootstrap -->
+    <script src="assets/vendor/popper.min.js"></script>
+    <script src="assets/vendor/bootstrap.min.js"></script>
 
-<!-- Perfect Scrollbar -->
-<script src="assets/vendor/perfect-scrollbar.min.js"></script>
+    <!-- Perfect Scrollbar -->
+    <script src="assets/vendor/perfect-scrollbar.min.js"></script>
 
-<!-- DOM Factory -->
-<script src="assets/vendor/dom-factory.js"></script>
+    <!-- DOM Factory -->
+    <script src="assets/vendor/dom-factory.js"></script>
 
-<!-- Range Slider -->
-<script src="assets/vendor/ion.rangeSlider.min.js"></script>
-<script src="assets/js/ion-rangeslider.js"></script>
+    <!-- Range Slider -->
+    <script src="assets/vendor/ion.rangeSlider.min.js"></script>
+    <script src="assets/js/ion-rangeslider.js"></script>
 
-<!-- App -->
-<script src="assets/js/toggle-check-all.js"></script>
-<script src="assets/js/check-selected-row.js"></script>
-<script src="assets/js/dropdown.js"></script>
-<script src="assets/js/sidebar-mini.js"></script>
-<script src="assets/js/app.js"></script>
+    <!-- App -->
+    <script src="assets/js/toggle-check-all.js"></script>
+    <script src="assets/js/check-selected-row.js"></script>
+    <script src="assets/js/dropdown.js"></script>
+    <script src="assets/js/sidebar-mini.js"></script>
+    <script src="assets/js/app.js"></script>
 
-<!-- App Settings (safe to remove) -->
-<script src="assets/js/app-settings.js"></script>
+    <!-- App Settings (safe to remove) -->
+    <script src="assets/js/app-settings.js"></script>
 </body>
 
 </html>
